@@ -1,4 +1,5 @@
 <launch>  
+    <node name="turtlesim_node" pkg="turtlesim" type="turtlesim_node"/>     
     <node name="key_teleop" pkg="unibas_teleop" type="key_teleop.py" output="screen"/> 
 </launch>
 
